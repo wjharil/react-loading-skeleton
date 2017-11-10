@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Skeleton from '../src';
+import {SkeletonImg, Skeleton} from '../src';
 
 export default class Post extends Component {
     static propTypes = {
@@ -28,8 +28,9 @@ export default class Post extends Component {
     render() {
         return (
             <div style={this.getStyle()}>
-                <h1>{this.props.title || <Skeleton/>}</h1>
-                <p>{this.props.children || <Skeleton count={5}/>}</p>
+                <SkeletonImg img={this.props.img} />
+                <h1>{this.props.title || <Skeleton width="200px"/>}</h1>
+                <p>{this.props.children || <Skeleton count={25}/>}</p>
             </div>
         );
     }

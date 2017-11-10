@@ -69,3 +69,25 @@ import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
     </p>
 </SkeletonTheme>
 ```
+
+
+
+##Images:
+
+Use: `<SkeletonImg>` and send props: 
+
+```javascript
+defaultProps = {
+        img: null,
+        wrapper: null,
+        setClassSkeleton: " ",
+        setClass: " ",
+        heightSkeleton: '100px',
+        height: " ",
+        widthSkeleton: "100%",
+        width: "",
+        title: " ",
+        alt: " "
+    }; 
+```
+

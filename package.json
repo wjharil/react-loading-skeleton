@@ -1,11 +1,12 @@
 {
-  "name": "react-loading-skeleton",
-  "version": "0.3.2",
+  "name": "react-js-skeleton",
+  "version": "0.3.4",
   "license": "MIT",
-  "author": "David Tang",
+  "author": "WJHARIL",
+  "description": "Init skeleton react js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dvtng/react-loading-skeleton.git"
+    "url": "git+https://github.com/wjharil/react-loading-skeleton.git"
   },
   "private": false,
   "main": "dist/bundle.js",
@@ -17,7 +18,9 @@
     "prepublishOnly": "npm run build"
   },
   "jest": {
-    "setupFiles": ["<rootDir>/testSetup/testSetup.js"],
+    "setupFiles": [
+      "<rootDir>/testSetup/testSetup.js"
+    ],
     "moduleNameMapper": {
       "\\.css$": "<rootDir>/testSetup/cssMock.js"
     }
@@ -44,5 +47,17 @@
     "style-loader": "^0.18.2",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/wjharil/react-loading-skeleton/issues"
+  },
+  "homepage": "https://github.com/wjharil/react-loading-skeleton#readme",
+  "keywords": [
+    "react",
+    "js",
+    "skeleton",
+    "loading",
+    "loading",
+    "css"
+  ]
 }

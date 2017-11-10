@@ -8,7 +8,7 @@ storiesOf('Post', module)
     .add('default', () =>
         <SideBySide>
             <Post />
-            <Post title="A title">
+            <Post title="A title" img='http://localhost/api/img.jpg'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum nec justo feugiat, auctor nunc ac, volutpat arcu.
                 Suspendisse faucibus aliquam ante, sit amet iaculis dolor
